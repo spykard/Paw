@@ -3,8 +3,8 @@
 Simple Django Application with RQ Integration
 
 ```bash
-$ git clone https://github.com/spykard/RQ.git
-$ cd RQ
+$ git clone https://github.com/spykard/Paw.git
+$ cd Paw
 $ cp .env.example .env
 
 # Setup py env
