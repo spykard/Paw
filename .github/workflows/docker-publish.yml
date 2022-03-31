@@ -72,5 +72,8 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
 
-          docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
-          docker push $IMAGE_ID:$VERSION
+          docker tag $IMAGE_NAME ghcr.io/spykard/paw:latest
+
+          docker run ghcr.io/spykard/paw:latest
+          docker push ghcr.io/spykard/paw:latest          
+          #cdocker push $IMAGE_ID:$VERSION
